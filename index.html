@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sculpture</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="content__header">
+        <h1 class="h1 text-color_brown">Sculpture</h1>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Theme
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item light">Light</button></li>
+            <li><button class="dropdown-item dark">Dark</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="backgrond__section">
+      <img src="media/images/sculpture.jpg" alt="Sculpture" class="sculpture-image">
+    </section>
+
+    <section class="description__section">
+      <div class="container">
+        <div class="content__description__section">
+          <div class="sculpture-description description">
+            <h3 class="h3">Sculpture</h3>
+            <p>
+              Sculpture is one of the oldest and most influential branches of fine art. It deals with the creation of
+              three-dimensional forms using various materials such as stone, wood, bronze, metal, clay, marble, plastic,
+              and others. Sculpture differs from painting in that it has a real, tangible volume and spatial existence —
+              it can be viewed from different angles, walked around, and physically experienced.
+            </p>
+            <p>
+              Sculpture can be round sculpture (fully three-dimensional, visible from all sides) or relief sculpture,
+              when
+              the image partially emerges from a flat surface (for example, sculptures applied to building facades or
+              monuments).
+            </p>
+            <p>
+              The history of sculpture begins in prehistoric times, when ancient humans made small stone or bone
+              figurines
+              as ritual or cult objects. In Ancient Egypt, Mesopotamia, Greece, and Rome, sculpture reached a high level
+              of development, serving religious, state, and aesthetic purposes. Greek sculpture is especially renowned
+              for
+              its ideal proportions, its study of the beauty of the human body, and the expression of movement.
+              From the Middle Ages onward, sculpture acquired a religious character, particularly in the decoration of
+              cathedrals and churches. During the Renaissance, it once again became a reflection of the beauty of
+              humanity
+              and nature — thanks to masters like Michelangelo.
+            </p>
+          </div>
+
+          <div class="armenian-sculpture-description description">
+            <h3 class="h3">Armenian Sculpture</h3>
+            <p>
+              Armenian sculpture has a history spanning thousands of years. It began during the Urartian period (9th–6th
+              centuries BC), when artists created bronze figurines of animals and deities, high reliefs, and
+              architectural
+              compositions.
+            </p>
+            <p>
+              In ancient Armenia, the sculptures found on temples, tombs, and fortresses often served religious
+              purposes.
+              They depicted gods, heroes, animals, or symbolic motifs. For instance, the sculptural columns and ceramic
+              decorations of the Garni pagan temple testify to the high artistic taste of that era.
+            </p>
+            <p>
+              After the adoption of Christianity in 301 AD, Armenian sculpture gained a new spiritual content. A unique
+              phenomenon emerged in Christian art — the khachkar (cross-stone): a carved stone monument shaped as a
+              cross,
+              which served as a religious, aesthetic, and national symbol. The fine engravings on khachkars — with
+              intricate floral patterns, complex compositions, and diverse cross designs — became the most vivid
+              expression of Armenian sculpture.
+            </p>
+            <p>
+              Among the famous medieval masters was Momik (14th century), who was not only a sculptor but also an
+              architect and miniaturist. His works, such as the khachkars of Noravank Monastery, are considered
+              masterpieces of medieval Armenian sculpture.
+            </p>
+            <p>
+              In modern times, Armenian sculpture continued to develop, embracing new materials, forms, and ideas.
+              During
+              the 20th century, renowned masters such as Ervand Kochar, Arpiar Sasouni, Getik Baghdasaryan, and Grigor
+              Khanjyan (also known for monumental works) emerged.
+              Ervand Kochar, in particular, became famous for his concept of “Man and the Universe” and his kinetic
+              sculptures — a synthesis of sculpture and time.
+            </p>
+            <p>
+              Today, Armenian sculptors create both monumental statues dedicated to historical figures (for example,
+              Mesrop Mashtots, Hovhannes Tumanyan, Alexander Spendiaryan, and others) and contemporary artworks
+              exhibited
+              in international biennales and art shows.
+            </p>
+          </div>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="cards__section">
+      <div class="container">
+        <div class="content__cards__section">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide card" data-title="Introduction">
+                <h5 class="h5">Introduction</h5>
+              </div>
+              <div class="swiper-slide card" data-title="Sculpture Groups">
+                <h5 class="h5">Sculpture Groups</h5>
+              </div>
+              <div class="swiper-slide card description-block" data-title="Types of Sculpture">
+                <h5 class="h5">Types of Sculpture</h5>
+              </div>
+              <div class="swiper-slide card" data-title="Why People Make Sculptures">
+                <h5 class="h5">Why People Make Sculptures</h5>
+              </div>
+              <div class="swiper-slide card" data-title="Famous Sculptures in Armenia">
+                <h5 class="h5">Famous Sculptures in Armenia</h5>
+              </div>
+              <div class="swiper-slide card" data-title="Epilogue">
+                <h5 class="h5">Epilogue</h5>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2 id="modal-title"></h2>
+      <span class="modal-close">&times;</span>
+      <p id="modal-description"></p>
+      <img id="modal-image" src="" alt="Sculpture Image"
+        style="width:100%; max-height:300px; object-fit:cover; margin-bottom:15px; border-radius:5px;">
+    </div>
+  </div>
+
+  <footer class="footer"></footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
