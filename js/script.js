@@ -100,7 +100,7 @@ Sculpture will always be an important part of human art and culture.`,
 
 const modalContent = document.querySelector('.modal-content');
 
-document.querySelectorAll('.swiper-slide.card').forEach((card, index) => {
+document.querySelectorAll('#sculpture-carousel .swiper-slide.card').forEach((card, index) => {
   card.addEventListener('click', () => {
     const sculpture = sculptures[index];
     modalContent.innerHTML = '';
