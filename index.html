@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Այբուբենի կառուցվածքը և առանձնահատկությունները</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="content__header">
+        <div class="logo">Այբուբենի կառուցվածքը և առանձնահատկությունները</div>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Թեմա
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item light">Լույս</button></li>
+            <li><button class="dropdown-item dark">Մութ</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="backgrond__section">
+    </section>
+
+    <section class="description__section">
+      <div class="container">
+        <div class="content__description__section">
+          <div class="avetiqisahakyan-description description">
+            <p>
+              Հայոց այբուբենը ստեղծվել է 405 թվականին Մեսրոպ Մաշտոցի կողմից՝ հայ ժողովրդի կրթական, կրոնական և
+              մշակութային զարգացման նպատակով։ Այն բաղկացած է 39 տառից, որոնցից
+            </p>
+            <ul>
+              <li>36-ը հին հայերենում են ստեղծվել Մեսրոպ Մաշտոցի կողմից</li>
+              <li>3-ը՝ օ ֆ և եվ, ավելացվել են ավելի ուշ միջնադարում։<br><br>
+                Տառերը բաժանվում են երկու հիմնական խմբի․
+              </li>
+              <li>Մեծատառեր՝ օգտագործվում են նախադասության սկզբում, անձնանունների, տեղանունների ժամանակ։</li>
+              <li>Փոքրատաառերը՝ օգտագործվում են գրավոր խոսքի մեջ սովորաբար։</li>
+            </ul>
+
+            <p>
+              Հայոց այբուբենն ունի նաև թվային նշանակություն՝ յուրաքանչյուր տառ ներկայացնում է որոշակի թիվ (Ա = 1, Բ = 2,
+              Գ = 3, Թ = 9, և այլն)։
+            </p>
+          </div>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="cards__section">
+      <div class="container">
+        <div class="content__cards__section">
+          <div class="swiper">
+            <div class="swiper-wrapper sculpture-carousel">
+              <div class="swiper-slide card" data-title="Introduction">
+                <h5 class="h5">Հնչյունային համակարգ</h5>
+              </div>
+              <div class="swiper-slide card" data-title="Sculpture Groups">
+                <h5 class="h5">Ձայնավորներ</h5>
+              </div>
+              <div class="swiper-slide card description-block" data-title="Types of Sculpture">
+                <h5 class="h5">Բաղաձայններ</h5>
+              </div>
+              <div class="swiper-slide card description-block" data-title="Types of Sculpture">
+                <h5 class="h5">Բաղաձայնները բաժանվում են՝</h5>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2 id="modal-title"></h2>
+      <span class="modal-close">&times;</span>
+      <p id="modal-description"></p>
+      <img id="modal-image" src="" alt="Sculpture Image"
+        style="width:100%; max-height:300px; object-fit:cover; margin-bottom:15px; border-radius:5px;">
+    </div>
+  </div>
+
+  <footer class="footer"></footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

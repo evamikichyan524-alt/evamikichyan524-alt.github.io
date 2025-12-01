@@ -100,7 +100,8 @@ body {
   gap: 16px;
 }
 
-.description p {
+.description p,
+.description li {
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
@@ -213,8 +214,13 @@ body {
   padding: 50px 0 !important;
 }
 
-.content__description__section p {
+.content__description__section p,
+.content__description__section li {
   color: var(--color);
+}
+
+.content__description__section li {
+  margin-left: 24px !important;
 }
 
 .content__cards__section {
@@ -281,6 +287,7 @@ body {
 .card.swiper-slide:nth-child(3) {
   background-image: url('../media/images/avetiqisahakyan/avetiqisahakyan-slide2.jpg');
 }
+
 /*
 .card.swiper-slide:nth-child(4) {
   background-image: url('../media/images/sculpture-card-4.jpg');
